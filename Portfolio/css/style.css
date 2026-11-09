@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+main{ /* pour mettre le footer en bas de la page */
+    flex: 1; 
+    padding: 20px;
+}
+
+
+.titre-page{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+h2{
+    color: #87cefa;
+}
+
+
+a{
+    color: #87cefa;
+}
+
+
+.projet-content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+
+.projet-item{
+    padding: 10px 15px;
+    border: 1px solid #1e90ff;
+}
+
+
+.image{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+
+.footer{
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #1e90ff;
+}
+
+
+.footer nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
